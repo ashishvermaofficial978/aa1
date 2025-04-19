@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Classic Fedora",
+            "price": 49.99,
+            "image": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=800",
+            "description": "Timeless wool fedora with leather band"
+        },
+        {
+            "id": 2,
+            "name": "Vintage Baseball Cap",
+            "price": 29.99,
+            "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+            "description": "Distressed cotton baseball cap with adjustable strap"
+        },
+        {
+            "id": 3,
+            "name": "Summer Straw Hat",
+            "price": 39.99,
+            "image": "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=800",
+            "description": "Wide-brim straw hat perfect for summer"
+        },
+        {
+            "id": 4,
+            "name": "Wool Beanie",
+            "price": 24.99,
+            "image": "https://images.unsplash.com/photo-1576063270807-d4cc0f0c2942?w=800",
+            "description": "Cozy knit beanie for winter comfort"
+        },
+        {
+            "id": 5,
+            "name": "Bucket Hat",
+            "price": 34.99,
+            "image": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=800",
+            "description": "Trendy cotton bucket hat with embroidery"
+        },
+        {
+            "id": 6,
+            "name": "Snapback Cap",
+            "price": 27.99,
+            "image": "https://images.unsplash.com/photo-1517941823-815bea90d291?w=800",
+            "description": "Modern snapback with flat brim"
+        }
+    ]
+} 

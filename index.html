@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hat Hives - Your Online Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3013J06010"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3013J06010');
+</script>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Elevate Your Style</h1>
+            <p>Discover our exclusive collection of premium hats for every occasion</p>
+            <a href="#products-grid" class="cta-button">Explore Collection</a>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search for your perfect hat...">
+            <button><i class="fas fa-search"></i> Search</button>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section">
+        <div class="feature">
+            <i class="fas fa-hat-cowboy"></i>
+            <h3>Premium Quality</h3>
+            <p>Finest materials & craftsmanship</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Fast Shipping</h3>
+            <p>Free delivery on orders over $50</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-medal"></i>
+            <h3>Satisfaction Guaranteed</h3>
+            <p>30-day return policy</p>
+        </div>
+    </div>
+
+    <!-- Add Categories Section -->
+    <section class="categories-section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Shop By Style</h2>
+                <p>Find your perfect hat</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=800" alt="Fedoras">
+                    <div class="category-content">
+                        <h3>Fedoras</h3>
+                        <p>Classic & Timeless</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800" alt="Baseball Caps">
+                    <div class="category-content">
+                        <h3>Baseball Caps</h3>
+                        <p>Casual & Cool</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1576063270807-d4cc0f0c2942?w=800" alt="Beanies">
+                    <div class="category-content">
+                        <h3>Beanies</h3>
+                        <p>Warm & Cozy</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=800" alt="Summer Hats">
+                    <div class="category-content">
+                        <h3>Summer Hats</h3>
+                        <p>Light & Breezy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="section-container">
+            <div class="showcase-grid">
+                <div class="showcase-content">
+                    <h2>New Summer Collection</h2>
+                    <p>Discover our latest collection of premium summer hats, designed for both style and comfort. Perfect for those sunny days ahead.</p>
+                    <a href="#" class="cta-button">Explore Collection</a>
+                </div>
+                <div class="showcase-image">
+                    <img src="https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=800" alt="Summer Collection">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+                <p>Our most popular styles</p>
+            </div>
+            <div class="products-container" id="products-grid">
+                <!-- Products loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="trending-section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Trending Styles</h2>
+                <p>Our most popular hats this season</p>
+            </div>
+            <div class="trending-wrapper">
+                <div class="trending-card">
+                    <div class="trending-image">
+                        <span class="trending-badge">Hot</span>
+                        <img src="https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=800" alt="Classic Fedora">
+                    </div>
+                    <div class="trending-content">
+                        <h3>Classic Fedora</h3>
+                        <p class="price">$49.99</p>
+                        <button onclick="viewProduct(1)">View Details</button>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-image">
+                        <span class="trending-badge">New</span>
+                        <img src="https://images.unsplash.com/photo-1576063270807-d4cc0f0c2942?w=800" alt="Winter Beanie">
+                    </div>
+                    <div class="trending-content">
+                        <h3>Winter Beanie</h3>
+                        <p class="price">$24.99</p>
+                        <button onclick="viewProduct(4)">View Details</button>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-image">
+                        <span class="trending-badge">Popular</span>
+                        <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800" alt="Vintage Cap">
+                    </div>
+                    <div class="trending-content">
+                        <h3>Vintage Baseball Cap</h3>
+                        <p class="price">$29.99</p>
+                        <button onclick="viewProduct(2)">View Details</button>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-image">
+                        <span class="trending-badge">Bestseller</span>
+                        <img src="https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=800" alt="Summer Hat">
+                    </div>
+                    <div class="trending-content">
+                        <h3>Summer Straw Hat</h3>
+                        <p class="price">$39.99</p>
+                        <button onclick="viewProduct(3)">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add why choose us section -->
+    <section class="why-choose-us">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Why Choose Hat Hives?</h2>
+                <p>Your trusted partner in fashion hats</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Products</h3>
+                    <p>All products meet international quality standards</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Quick nationwide shipping</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Expert Support</h3>
+                    <p>Professional guidance available 24/7</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-sync"></i>
+                    <h3>Easy Returns</h3>
+                    <p>30-day hassle-free returns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+                <p>Real reviews from hat enthusiasts</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Smith">
+                            <div class="author-info">
+                                <h4>Michael Smith</h4>
+                                <span class="author-location">New York, USA</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-text">5.0</span>
+                    </div>
+                    <p class="testimonial-text">"The Classic Fedora is absolutely stunning! The quality is exceptional, and it fits perfectly. Definitely my new favorite hat for special occasions."</p>
+                    <div class="testimonial-footer">
+                        <span class="purchase-info">Purchased Classic Fedora</span>
+                        <span class="review-date">2 weeks ago</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jessica Brown">
+                            <div class="author-info">
+                                <h4>Jessica Brown</h4>
+                                <span class="author-location">Los Angeles, USA</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="rating-text">4.5</span>
+                    </div>
+                    <p class="testimonial-text">"Love my new Summer Straw Hat! Perfect for beach days and outdoor events. The wide brim provides great sun protection, and it's so stylish!"</p>
+                    <div class="testimonial-footer">
+                        <span class="purchase-info">Purchased Summer Straw Hat</span>
+                        <span class="review-date">1 month ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about our hats</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I find my hat size?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Use a measuring tape to measure around your head where the hat will sit. Check our size guide for detailed instructions and measurements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your return policy?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day return policy on all unworn items in their original packaging. Contact our customer service team to initiate a return.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I care for my hat?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Each hat comes with specific care instructions. Generally, store in a cool, dry place and clean according to the material type.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you ship internationally?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we ship worldwide! Shipping costs and delivery times vary by location.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/main.js"></script>
+
+    <!-- Add style for the new elements -->
+    <style>
+    .search-container {
+        max-width: 800px;
+        margin: -30px auto 50px;
+        padding: 0 2rem;
+        position: relative;
+        z-index: 10;
+    }
+
+    .search-bar {
+        display: flex;
+        background: white;
+        border-radius: 50px;
+        padding: 0.5rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-bar input {
+        flex: 1;
+        padding: 1rem 1.5rem;
+        border: none;
+        outline: none;
+        font-size: 1.1rem;
+    }
+
+    .search-bar button {
+        background: var(--secondary-color);
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .search-bar button:hover {
+        background: var(--primary-color);
+        transform: translateX(3px);
+    }
+
+    .category-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .category-card:hover .category-overlay {
+        opacity: 1;
+    }
+
+    .trending-section {
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+    }
+
+    .trending-slider {
+        overflow: hidden;
+        padding: 2rem 0;
+    }
+    </style>
+</body>
+</html> 
